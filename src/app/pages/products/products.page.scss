@@ -1,0 +1,24 @@
+ion-grid {
+  --ion-grid-padding-sm: 20px;
+  --ion-grid-padding-md: 30px;
+  --ion-grid-padding-lg: 40px;
+  --ion-grid-padding-xl: 100px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+ion-card:hover {
+  transform: scale(1.2);
+  transition: 0.5 cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+ion-card{
+    transform: scale(1);
+    transition: 0.5s ease-out;
+}
